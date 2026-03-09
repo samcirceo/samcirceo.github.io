@@ -1,9 +1,3 @@
----
-layout: home
-title: Samantha Circeo – Data Science Portfolio
-description: Showcasing my data science projects, skills, and professional background.
----
-
 # Hi, I'm Samantha! 👋
 
 I’m a **data enthusiast** with an M.S. in Data Science from Eastern University and a B.S. in Textile Engineering from NC State. I enjoy digging into data to uncover insights, build predictive models, and communicate findings visually.  
