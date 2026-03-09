@@ -1,4 +1,4 @@
-### Samantha Circeo | Data Science Portfolio
+## Samantha Circeo | Data Science Portfolio
 
 <div align="center">
   <img width="82" alt="Eastern University logo" src="images/easternlogo.png">
@@ -6,9 +6,7 @@
   <img width="70" alt="NC State logo" src="https://github.com/user-attachments/assets/84a13e28-91ce-44c4-9ec8-aed597be177b">
 </div>
 
-M.S. in **Data Science** from Eastern University and B.S. in **Textile Engineering** from NC State.
-
-I enjoy using data to uncover insights, build predictive models, and create clear visualizations.
+I'm a data enthusiast with an **M.S. in Data Science** from Eastern University and **B.S. in Textile Engineering** from NC State.
 
 ### Skills & Tools
 
