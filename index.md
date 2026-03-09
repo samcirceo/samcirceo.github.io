@@ -1,7 +1,8 @@
-# ---
-# title: Samantha Circeo – Data Science Portfolio
-# description: Showcasing my data science projects, skills, and professional background.
-# ---
+---
+layout: home
+title: Samantha Circeo – Data Science Portfolio
+description: Showcasing my data science projects, skills, and professional background.
+---
 
 # Hi, I'm Samantha! 
 
