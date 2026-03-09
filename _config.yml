@@ -1,5 +1,6 @@
-# Theme & Appearance
-theme: jekyll-theme-minimal
-show_downloads: false
-favicon: /images/favicon.png          # Adds a favicon in the browser tab
+
+title: Samantha Circeo
 logo: /images/1circle.png
+description: data science portfolio
+show_downloads: false
+theme: jekyll-theme-minimal
