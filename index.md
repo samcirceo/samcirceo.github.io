@@ -4,7 +4,7 @@ title: Samantha Circeo – Data Science Portfolio
 description: Showcasing my data science projects, skills, and professional background.
 ---
 
-# Hi, I'm Samantha! 
+# Hi, I'm Samantha! 👋
 
 I’m a **data enthusiast** with an M.S. in Data Science from Eastern University and a B.S. in Textile Engineering from NC State. I enjoy digging into data to uncover insights, build predictive models, and communicate findings visually.  
 
@@ -20,8 +20,7 @@ Fun fact: I’m on a mission to visit all 62 U.S. National Parks—I’ve been t
 
 ## Skills & Tools
 
-Python, NumPy, Pandas, Matplotlib, TensorFlow, Scikit-learn, R, dplyr, ggplot2, SQL, Data Visualization  
-
+<div align="center">
 ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?logo=numpy&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?logo=pandas&logoColor=white)
@@ -33,41 +32,51 @@ Python, NumPy, Pandas, Matplotlib, TensorFlow, Scikit-learn, R, dplyr, ggplot2, 
 ![ggplot2](https://img.shields.io/badge/ggplot2-EA5E5E)
 ![SQL](https://img.shields.io/badge/SQL-blue?style=flat&logo=postgresql&logoColor=white)
 ![Data Visualization](https://img.shields.io/badge/Data%20Visualization-4CAF50)
+</div>
 
 ---
 
 ## Featured Projects
 
-### Mushroom Classifier
-<img src="images/mushroom.png" width="220"/>
-- **Tools:** Python, TensorFlow
-- **Overview:** CNN model with PCA to classify mushrooms as poisonous or edible.  
-*[Private repository available upon request](https://github.com/samcirceo/MushroomClassification)*  
-[View Overview](https://github.com/samcirceo/MushroomClassifierPUBLIC)
+<div class="project-card" style="text-align:center; margin-bottom: 2rem;">
+  <img src="images/mushroom.png" width="220" alt="Mushroom Classifier"/>
+  <h3>Mushroom Classifier</h3>
+  <p><strong>Tools:</strong> Python, TensorFlow</p>
+  <p>CNN model with PCA to classify mushrooms as poisonous or edible.</p>
+  <p><a href="https://github.com/samcirceo/MushroomClassifierPUBLIC">View Overview</a></p>
+  <p><em>Private repository available upon request</em></p>
+</div>
 
-### Final Grade Predictor
-<img src="images/grades.jpeg" width="220"/>
-- **Tools:** Python, Matplotlib, Seaborn, Scikit-learn
-- **Overview:** Machine learning model predicting final grades with preprocessing, model selection, evaluation, and insights.  
-*[Private repository available upon request](https://github.com/samcirceo/FinalGradePredictor)*  
-[View Overview](https://github.com/samcirceo/FinalGradePredictorPUBLIC)
+<div class="project-card" style="text-align:center; margin-bottom: 2rem;">
+  <img src="images/grades.jpeg" width="220" alt="Final Grade Predictor"/>
+  <h3>Final Grade Predictor</h3>
+  <p><strong>Tools:</strong> Python, Matplotlib, Seaborn, Scikit-learn</p>
+  <p>Machine learning model predicting final grades with preprocessing, model selection, evaluation, and insights.</p>
+  <p><a href="https://github.com/samcirceo/FinalGradePredictorPUBLIC">View Overview</a></p>
+  <p><em>Private repository available upon request</em></p>
+</div>
 
-### Mental Health Predictor
-<img src="images/mentalhealth.jpeg" width="220"/>
-- **Tools:** R, dplyr, ggplot2
-- **Overview:** Regression model predicting mental health scores using exploratory data analysis and visualization.  
-*[Private repository available upon request](https://github.com/samcirceo/MentalHealthPredictor)*  
-[View Overview](https://github.com/samcirceo/MentalHealthPredictorPUBLIC)
+<div class="project-card" style="text-align:center; margin-bottom: 2rem;">
+  <img src="images/mentalhealth.jpeg" width="220" alt="Mental Health Predictor"/>
+  <h3>Mental Health Predictor</h3>
+  <p><strong>Tools:</strong> R, dplyr, ggplot2</p>
+  <p>Regression model predicting mental health scores using exploratory data analysis and visualization.</p>
+  <p><a href="https://github.com/samcirceo/MentalHealthPredictorPUBLIC">View Overview</a></p>
+  <p><em>Private repository available upon request</em></p>
+</div>
 
-### New York Taxi Analysis
-<img src="images/taxi.jpeg" width="220"/>
-- **Tools:** Python
-- **Overview:** Regression model predicting hourly NYC taxi demand across regions.  
-[View Project](https://github.com/samcirceo/New-York-Taxi-Analysis)
+<div class="project-card" style="text-align:center; margin-bottom: 2rem;">
+  <img src="images/taxi.jpeg" width="220" alt="New York Taxi Analysis"/>
+  <h3>New York Taxi Analysis</h3>
+  <p><strong>Tools:</strong> Python</p>
+  <p>Regression model predicting hourly NYC taxi demand across regions.</p>
+  <p><a href="https://github.com/samcirceo/New-York-Taxi-Analysis">View Project</a></p>
+</div>
 
 ---
 
 ## Currently Working On
+
 Expanding my portfolio with additional **machine learning**, **data visualization**, and **cloud deployment** projects.
 
 ---
