@@ -1,23 +1,23 @@
 # Hi, I'm Samantha
 
-I’m a data enthusiast with an **M.S. in Data Science** from Eastern University and a **B.S. in Textile Engineering** from NC State. I enjoy digging into data to uncover insights, build predictive models, and communicate findings visually.  
-
-Fun fact: I’m on a mission to visit all 62 U.S. National Parks—I’ve been to 20 so far. 
-
 <div align="center">
   <img width="82" alt="Eastern University logo" src="images/easternlogo.png">
   &nbsp;&nbsp;&nbsp;&nbsp;
   <img width="70" alt="NC State logo" src="https://github.com/user-attachments/assets/84a13e28-91ce-44c4-9ec8-aed597be177b">
 </div>
 
+I’m a data enthusiast with an **M.S. in Data Science** from Eastern University and a **B.S. in Textile Engineering** from NC State. I love digging into data to uncover insights that help make smarter decisions and spark innovation.  With experience in Engineering, Research & Development, and Product Development within the textile industry, I enjoy turning complex datasets into actionable solutions. 
+
+
+Fun fact: I’m on a mission to visit all 62 U.S. National Parks—I’ve been to 20 so far.
 
 ### Skills & Tools
 
 ---
 
 **Programming Languages:** Python, R, SQL  
-**Libraries/Frameworks:** NumPy, Pandas, Matplotlib, Seaborn, Scikit-learn, TensorFlow, dplyr, ggplot2  
-**Tools / Visualization:** Tableau, Data Visualization, Machine Learning
+**Libraries:** NumPy, Pandas, Matplotlib, Seaborn, Scikit-learn, TensorFlow, dplyr, ggplot2  
+**Tools:** Tableau, Data Visualization, Machine Learning
 
 
 ### Featured Projects
@@ -81,7 +81,7 @@ Regression model predicting hourly NYC taxi demand across regions.
 
 ### Currently Working On
 
-Expanding my portfolio with additional **machine learning**, **data visualization**, and **cloud deployment** projects.
+Expanding my portfolio with additional machine learning and data visualization projects as well as exploring cloud technologies (AWS)
 
 ---
 
