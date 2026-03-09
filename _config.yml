@@ -1,6 +1,6 @@
 # Theme & Appearance
 theme: jekyll-theme-minimal
-show_downloads: true
+show_downloads: false
 favicon: /images/favicon.png          # Adds a favicon in the browser tab
 logo: /images/1circle.png
 
@@ -21,7 +21,7 @@ plugins:
 # Optional Customizations
 # You can add social links to make it easier for visitors
 social_links:
-  github: https://github.com/username
+  github: https://github.com/samcirceo
   linkedin: https://www.linkedin.com/in/samantha-circeo-406b76123/
   email: samantha.circeo@eastern.edu
 
