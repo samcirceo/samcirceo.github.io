@@ -1,6 +1,6 @@
 # Hi, I'm Samantha
 
-I’m a data enthusiast with an M.S. in Data Science from Eastern University and a B.S. in Textile Engineering from NC State. I enjoy digging into data to uncover insights, build predictive models, and communicate findings visually.  
+I’m a data enthusiast with an **M.S. in Data Science** from Eastern University and a **B.S. in Textile Engineering** from NC State. I enjoy digging into data to uncover insights, build predictive models, and communicate findings visually.  
 
 Fun fact: I’m on a mission to visit all 62 U.S. National Parks—I’ve been to 20 so far. 
 
@@ -10,74 +10,82 @@ Fun fact: I’m on a mission to visit all 62 U.S. National Parks—I’ve been t
   <img width="70" alt="NC State logo" src="https://github.com/user-attachments/assets/84a13e28-91ce-44c4-9ec8-aed597be177b">
 </div>
 
+
+### Skills & Tools
+
 ---
 
-## Skills & Tools
+**Programming Languages:** Python, R, SQL  
+**Libraries/Frameworks:** NumPy, Pandas, Matplotlib, Seaborn, Scikit-learn, TensorFlow, dplyr, ggplot2  
+**Tools / Visualization:** Tableau, Data Visualization, Machine Learning
+
+
+### Featured Projects
+
+---
 
 <p align="center">
-  Programming Languages
-  ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white&style=flat)
-  ![R](https://img.shields.io/badge/R-276DC3?logo=r&logoColor=white&style=flat)
-  ![SQL](https://img.shields.io/badge/SQL-276DC3?logo=postgresql&logoColor=white&style=flat)
-  
-  Libraries & Tools
-  ![NumPy](https://img.shields.io/badge/NumPy-3776AB?logo=numpy&logoColor=white&style=flat)
-  ![Pandas](https://img.shields.io/badge/Pandas-3776AB?logo=pandas&logoColor=white&style=flat)
-  ![Matplotlib](https://img.shields.io/badge/Matplotlib-3776AB?logo=matplotlib&logoColor=white&style=flat)
-  ![Seaborn](https://img.shields.io/badge/Seaborn-3776AB?logo=seaborn&logoColor=white&style=flat)
-  ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-3776AB?logo=scikit-learn&logoColor=white&style=flat)
-  ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?logo=tensorflow&logoColor=white&style=flat)
-  ![dplyr](https://img.shields.io/badge/dplyr-276DC3?logoColor=white&style=flat)
-  ![ggplot2](https://img.shields.io/badge/ggplot2-276DC3?logoColor=white&style=flat)
-  
-  General
-  ![Data Visualization](https://img.shields.io/badge/Data%20Visualization-4CAF50?style=flat)
+  <img src="images/mushroom.png" width="220" alt="Mushroom Classifier">
 </p>
+
+#### Mushroom Classifier
+
+**Tools:** Python, TensorFlow  
+CNN model with PCA that classifies mushrooms as poisonous or edible.  
+
+[View Overview](https://github.com/samcirceo/MushroomClassifierPUBLIC)  
+_[Full project](https://github.com/samcirceo/MushroomClassifier) available upon request_
 
 ---
 
-## Featured Projects
+<p align="center">
+  <img src="images/grades.jpeg" width="220" alt="Final Grade Predictor">
+</p>
 
+#### Final Grade Predictor
 
-### Mushroom Classifier
-![Mushroom Classifier](images/mushroom.png)  
-**Tools:** Python, TensorFlow  
-CNN model with PCA to classify mushrooms as poisonous or edible.  
-[View Overview](https://github.com/samcirceo/MushroomClassifierPUBLIC)
-
-_[Full project](https://github.com/samcirceo/MushroomClassifier) available upon request_
-
-### Final Grade Predictor
-![Final Grade Predictor](images/grades.jpeg)  
 **Tools:** Python, Matplotlib, Seaborn, Scikit-learn  
 Machine learning model predicting final grades with preprocessing, model selection, evaluation, and insights.  
-[View Overview](https://github.com/samcirceo/FinalGradePredictorPUBLIC)
 
+[View Overview](https://github.com/samcirceo/FinalGradePredictorPUBLIC)  
 _[Full project](https://github.com/samcirceo/FinalGradePredictor) available upon request_
 
-### Mental Health Predictor
-![Mental Health Predictor](images/mentalhealth.jpeg)  
+---
+
+<p align="center">
+  <img src="images/mentalhealth.jpeg" width="220" alt="Mental Health Predictor">
+</p>
+
+#### Mental Health Predictor
+
 **Tools:** R, dplyr, ggplot2  
 Regression model predicting mental health scores using exploratory data analysis and visualization.  
-[View Overview](https://github.com/samcirceo/MentalHealthPredictorPUBLIC)
 
+[View Overview](https://github.com/samcirceo/MentalHealthPredictorPUBLIC)  
 _[Full project](https://github.com/samcirceo/MentalHealthPredictorPUBLIC) available upon request_
 
-### New York Taxi Analysis
-![New York Taxi Analysis](images/taxi.jpeg)  
+---
+
+<p align="center">
+  <img src="images/taxi.jpeg" width="220" alt="NY Taxi Analysis">
+</p>
+
+#### New York Taxi Analysis
+
 **Tools:** Python  
 Regression model predicting hourly NYC taxi demand across regions.  
+
 [View Project](https://github.com/samcirceo/New-York-Taxi-Analysis)
 
 ---
 
-## Currently Working On
+### Currently Working On
 
 Expanding my portfolio with additional **machine learning**, **data visualization**, and **cloud deployment** projects.
 
 ---
 
-## 📫 Contact Me
+### Contact Me
 
 - **Email:** samantha.circeo@eastern.edu  
 - **LinkedIn:** [samantha-circeo](https://www.linkedin.com/in/samantha-circeo-406b76123/)  
