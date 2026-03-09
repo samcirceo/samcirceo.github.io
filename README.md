@@ -1,4 +1,4 @@
-# Hi, I'm Samantha
+
 
 <div align="center">
   <img width="82" alt="Eastern University logo" src="images/easternlogo.png">
@@ -6,10 +6,9 @@
   <img width="70" alt="NC State logo" src="https://github.com/user-attachments/assets/84a13e28-91ce-44c4-9ec8-aed597be177b">
 </div>
 
-I’m a data enthusiast with an **M.S. in Data Science** from Eastern University and a **B.S. in Textile Engineering** from NC State. I love digging into data to uncover insights that help make smarter decisions and spark innovation.  With experience in Engineering, Research & Development, and Product Development within the textile industry, I enjoy turning complex datasets into actionable solutions. 
+M.S. in Data Science from **Eastern University** and B.S. in **Textile Engineering from NC State**.
 
-
-Fun fact: I’m on a mission to visit all 62 U.S. National Parks—I’ve been to 20 so far.
+I enjoy using data to uncover insights, build predictive models, and create clear visualizations.
 
 ### Skills & Tools
 
@@ -75,7 +74,7 @@ _[Full project](https://github.com/samcirceo/MentalHealthPredictorPUBLIC) availa
 **Tools:** Python  
 Regression model predicting hourly NYC taxi demand across regions.  
 
-[View Project](https://github.com/samcirceo/New-York-Taxi-Analysis)
+[View Full Project](https://github.com/samcirceo/New-York-Taxi-Analysis)
 
 ---
 
