@@ -3,37 +3,3 @@ theme: jekyll-theme-minimal
 show_downloads: false
 favicon: /images/favicon.png          # Adds a favicon in the browser tab
 logo: /images/1circle.png
-
-# Navigation / Menu
-# Optional if you want custom menu links
-# minimal theme supports 'header_pages' for extra pages
-header_pages:
-  - about.md
-  - projects.md
-  - contact.md
-
-# Plugins (for extra functionality)
-plugins:
-  - jekyll-feed       # RSS feed support
-  - jekyll-seo-tag    # SEO optimization
-  - jekyll-sitemap    # Generates sitemap.xml
-
-# Optional Customizations
-# You can add social links to make it easier for visitors
-social_links:
-  github: https://github.com/samcirceo
-  linkedin: https://www.linkedin.com/in/samantha-circeo-406b76123/
-  email: samantha.circeo@eastern.edu
-
-# Markdown / Formatting Options
-markdown: kramdown
-kramdown:
-  input: GFM           # GitHub Flavored Markdown
-  hard_wrap: false
-
-# Build Settings
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - node_modules
-  - vendor
