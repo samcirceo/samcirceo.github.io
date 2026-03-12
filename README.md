@@ -6,7 +6,7 @@
   <img width="60" alt="NC State logo" src="https://github.com/user-attachments/assets/84a13e28-91ce-44c4-9ec8-aed597be177b">
 </div>
 
-I'm a data enthusiast with an **M.S. in Data Science** from Eastern University and **B.S. in Textile Engineering** from NC State, with a background in engineering and product development.
+I'm a data enthusiast with an **M.S. in Data Science** from Eastern University and **B.S. in Textile Engineering** from NC State, with a background in engineering, product development, and data-driven problem solving.
 
 ### Skills & Tools
 
