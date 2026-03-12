@@ -1,12 +1,12 @@
 ## Samantha Circeo | Data Science Portfolio
 
 <div align="center">
-  <img width="82" alt="Eastern University logo" src="images/easternlogo.png">
+  <img width="72" alt="Eastern University logo" src="images/easternlogo.png">
   &nbsp;&nbsp;&nbsp;&nbsp;
-  <img width="70" alt="NC State logo" src="https://github.com/user-attachments/assets/84a13e28-91ce-44c4-9ec8-aed597be177b">
+  <img width="60" alt="NC State logo" src="https://github.com/user-attachments/assets/84a13e28-91ce-44c4-9ec8-aed597be177b">
 </div>
 
-I'm a data enthusiast with an **M.S. in Data Science** from Eastern University and **B.S. in Textile Engineering** from NC State.
+I'm a data enthusiast with an **M.S. in Data Science** from Eastern University and **B.S. in Textile Engineering** from NC State, with a background in engineering and product development.
 
 ### Skills & Tools
 
@@ -22,7 +22,7 @@ I'm a data enthusiast with an **M.S. in Data Science** from Eastern University a
 ---
 
 <p align="center">
-  <img src="images/mushroom.png" width="220" alt="Mushroom Classifier">
+  <img src="images/mushroom.png" width="200" alt="Mushroom Classifier">
 </p>
 
 #### Mushroom Classifier
@@ -36,7 +36,7 @@ _[Full project](https://github.com/samcirceo/MushroomClassifier) available upon 
 ---
 
 <p align="center">
-  <img src="images/grades.jpeg" width="220" alt="Final Grade Predictor">
+  <img src="images/grades.jpeg" width="200" alt="Final Grade Predictor">
 </p>
 
 #### Final Grade Predictor
@@ -50,7 +50,7 @@ _[Full project](https://github.com/samcirceo/FinalGradePredictor) available upon
 ---
 
 <p align="center">
-  <img src="images/mentalhealth.jpeg" width="220" alt="Mental Health Predictor">
+  <img src="images/mentalhealth.jpeg" width="200" alt="Mental Health Predictor">
 </p>
 
 #### Mental Health Predictor
@@ -64,7 +64,7 @@ _[Full project](https://github.com/samcirceo/MentalHealthPredictorPUBLIC) availa
 ---
 
 <p align="center">
-  <img src="images/taxi.jpeg" width="220" alt="NY Taxi Analysis">
+  <img src="images/taxi.jpeg" width="200" alt="NY Taxi Analysis">
 </p>
 
 #### New York Taxi Analysis
