@@ -29,7 +29,7 @@ I'm a data enthusiast with an **M.S. in Data Science** from Eastern University a
 </div>
 <div style="text-align:left; margin-top:5px;">
 <strong>Tools:</strong> Python, TensorFlow<br>
-CNN model with PCA that classifies mushrooms as poisonous or edible.<br>
+This project creates a CNN model and uses dimensionality reduction with PCA to classify mushrooms as poisonous or edible.<br>
 <a href="https://github.com/samcirceo/MushroomClassifierPUBLIC">View Overview</a><br>
 <em><a href="https://github.com/samcirceo/MushroomClassifier">Full project</a> available upon request</em>
 </div>
@@ -42,7 +42,7 @@ CNN model with PCA that classifies mushrooms as poisonous or edible.<br>
 </div>
 <div style="text-align:left; margin-top:5px;">
 <strong>Tools:</strong> Python, Matplotlib, Seaborn, Scikit-learn<br>
-Machine learning model predicting final grades with preprocessing, model selection, evaluation, and insights.<br>
+This project creates several different machine learning models to predict a student's final grade .<br>
 <a href="https://github.com/samcirceo/FinalGradePredictorPUBLIC">View Overview</a><br>
 <em><a href="https://github.com/samcirceo/FinalGradePredictor">Full project</a> available upon request</em>
 </div>
@@ -55,7 +55,7 @@ Machine learning model predicting final grades with preprocessing, model selecti
 </div>
 <div style="text-align:left; margin-top:5px;">
 <strong>Tools:</strong> R, dplyr, ggplot2<br>
-Regression model predicting mental health scores using exploratory data analysis and visualization.<br>
+This project creates a regression model to predict mental health scores using exploratory data analysis and visualization.<br>
 <a href="https://github.com/samcirceo/MentalHealthPredictorPUBLIC">View Overview</a><br>
 <em><a href="https://github.com/samcirceo/MentalHealthPredictor">Full project</a> available upon request</em>
 </div>
@@ -68,7 +68,7 @@ Regression model predicting mental health scores using exploratory data analysis
 </div>
 <div style="text-align:left; margin-top:5px;">
 <strong>Tools:</strong> Python<br>
-Regression model predicting hourly NYC taxi demand across regions.<br>
+This project creates a regression model predicting hourly NYC taxi demand across regions.<br>
 <a href="https://github.com/samcirceo/New-York-Taxi-Analysis">View Full Project</a>
 </div>
 </div>
