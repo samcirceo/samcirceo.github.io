@@ -6,13 +6,10 @@
   <img width="60" alt="NC State logo" src="https://github.com/user-attachments/assets/84a13e28-91ce-44c4-9ec8-aed597be177b">
 </div>
 
-I'm a data enthusiast with an **M.S. in Data Science** from Eastern University and **B.S. in Textile Engineering** from NC State, with a background in engineering, product development, and data-driven problem solving.
+I am a data enthusiast with an **M.S. in Data Science** from Eastern University and **B.S. in Textile Engineering** from NC State, with a background in engineering, product development, and data-driven problem solving.
 
-### Skills & Tools
 
----
-
-**Programming Languages:** Python, R, SQL  
+**Languages**: Python, R, SQL  
 **Libraries:** NumPy, Pandas, Matplotlib, Seaborn, Scikit-learn, TensorFlow, dplyr, ggplot2  
 **Tools:** Tableau, Data Visualization, Machine Learning
 
