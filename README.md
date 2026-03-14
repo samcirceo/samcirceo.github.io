@@ -13,9 +13,9 @@ I am a data enthusiast with an **M.S. in Data Science** from Eastern University 
 **Libraries:** NumPy, Pandas, Matplotlib, Seaborn, Scikit-learn, TensorFlow, dplyr, ggplot2  
 **Tools:** Tableau, Data Visualization, Machine Learning
 
-### Featured Projects
-
 ---
+
+### Featured Projects
 
 <div align="center">
 
