@@ -22,49 +22,58 @@ I'm a data enthusiast with an **M.S. in Data Science** from Eastern University a
 
 <div align="center">
 
-<div style="display:inline-block; width:220px; margin:10px; vertical-align:top; text-align:left;">
+<div style="display:inline-block; width:220px; margin:10px; vertical-align:top;">
 <img src="images/mushroom.png" width="200" alt="Mushroom Classifier">
-<br>
-<strong>Mushroom Classifier</strong><br>
+<div style="text-align:center; margin-top:5px;">
+<strong>Mushroom Classifier</strong>
+</div>
+<div style="text-align:left; margin-top:5px;">
 <strong>Tools:</strong> Python, TensorFlow<br>
 CNN model with PCA that classifies mushrooms as poisonous or edible.<br>
 <a href="https://github.com/samcirceo/MushroomClassifierPUBLIC">View Overview</a><br>
-<em>Full project available upon request</em>
+<em><a href="https://github.com/samcirceo/MushroomClassifier">Full project</a> available upon request</em>
+</div>
 </div>
 
-<div style="display:inline-block; width:220px; margin:10px; vertical-align:top; text-align:left;">
+<div style="display:inline-block; width:220px; margin:10px; vertical-align:top;">
 <img src="images/grades.jpeg" width="200" alt="Final Grade Predictor">
-<br>
-<strong>Final Grade Predictor</strong><br>
+<div style="text-align:center; margin-top:5px;">
+<strong>Final Grade Predictor</strong>
+</div>
+<div style="text-align:left; margin-top:5px;">
 <strong>Tools:</strong> Python, Matplotlib, Seaborn, Scikit-learn<br>
 Machine learning model predicting final grades with preprocessing, model selection, evaluation, and insights.<br>
 <a href="https://github.com/samcirceo/FinalGradePredictorPUBLIC">View Overview</a><br>
-<em>Full project available upon request</em>
+<em><a href="https://github.com/samcirceo/FinalGradePredictor">Full project</a> available upon request</em>
+</div>
 </div>
 
-<div style="display:inline-block; width:220px; margin:10px; vertical-align:top; text-align:left;">
+<div style="display:inline-block; width:220px; margin:10px; vertical-align:top;">
 <img src="images/mentalhealth.jpeg" width="200" alt="Mental Health Predictor">
-<br>
-<strong>Mental Health Predictor</strong><br>
+<div style="text-align:center; margin-top:5px;">
+<strong>Mental Health Predictor</strong>
+</div>
+<div style="text-align:left; margin-top:5px;">
 <strong>Tools:</strong> R, dplyr, ggplot2<br>
 Regression model predicting mental health scores using exploratory data analysis and visualization.<br>
 <a href="https://github.com/samcirceo/MentalHealthPredictorPUBLIC">View Overview</a><br>
-<em>Full project available upon request</em>
+<em><a href="https://github.com/samcirceo/MentalHealthPredictor">Full project</a> available upon request</em>
+</div>
 </div>
 
-<div style="display:inline-block; width:220px; margin:10px; vertical-align:top; text-align:left;">
+<div style="display:inline-block; width:220px; margin:10px; vertical-align:top;">
 <img src="images/taxi.jpeg" width="200" alt="NY Taxi Analysis">
-<br>
-<strong>New York Taxi Analysis</strong><br>
+<div style="text-align:center; margin-top:5px;">
+<strong>New York Taxi Analysis</strong>
+</div>
+<div style="text-align:left; margin-top:5px;">
 <strong>Tools:</strong> Python<br>
 Regression model predicting hourly NYC taxi demand across regions.<br>
 <a href="https://github.com/samcirceo/New-York-Taxi-Analysis">View Full Project</a>
 </div>
-
 </div>
 
-
-
+</div>
 
 ---
 
