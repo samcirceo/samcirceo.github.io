@@ -1,9 +1,9 @@
 ## Samantha Circeo | Data Science Portfolio
 
 <div align="center">
-  <img width="72" alt="Eastern University logo" src="images/easternlogo.png">
+  <img width="65" alt="Eastern University logo" src="images/easternlogo.png">
   &nbsp;&nbsp;&nbsp;&nbsp;
-  <img width="60" alt="NC State logo" src="https://github.com/user-attachments/assets/84a13e28-91ce-44c4-9ec8-aed597be177b">
+  <img width="55" alt="NC State logo" src="https://github.com/user-attachments/assets/84a13e28-91ce-44c4-9ec8-aed597be177b">
 </div>
 
 I am a data enthusiast with an **M.S. in Data Science** from Eastern University and **B.S. in Textile Engineering** from NC State, with a background in engineering, product development, and data-driven problem solving.
@@ -12,10 +12,6 @@ I am a data enthusiast with an **M.S. in Data Science** from Eastern University 
 **Languages**: Python, R, SQL  
 **Libraries:** NumPy, Pandas, Matplotlib, Seaborn, Scikit-learn, TensorFlow, dplyr, ggplot2  
 **Tools:** Tableau, Data Visualization, Machine Learning
-
-<img src="images/easternlogo.png" style="width:65px; filter: grayscale(100%); transition:0.3s;" 
-onmouseover="this.style.filter='grayscale(0%)';" 
-onmouseout="this.style.filter='grayscale(100%)';">
 
 ### Featured Projects
 
