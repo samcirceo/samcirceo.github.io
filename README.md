@@ -16,85 +16,59 @@ I'm a data enthusiast with an **M.S. in Data Science** from Eastern University a
 **Libraries:** NumPy, Pandas, Matplotlib, Seaborn, Scikit-learn, TensorFlow, dplyr, ggplot2  
 **Tools:** Tableau, Data Visualization, Machine Learning
 
-
 ### Featured Projects
 
 ---
 
 <div align="center">
 
-<table border="0">
-<tr>
-<td width="220">
+<div style="display:inline-block; width:220px; margin:10px; vertical-align:top;">
 <img src="images/mushroom.png" width="200" alt="Mushroom Classifier">
-</td>
-<td valign="top">
-
+<br>
 **Mushroom Classifier**  
 **Tools:** Python, TensorFlow  
 CNN model with PCA that classifies mushrooms as poisonous or edible.  
-
+<br>
 [View Overview](https://github.com/samcirceo/MushroomClassifierPUBLIC)  
 *Full project available upon request*
+</div>
 
-</td>
-</tr>
-
-<tr><td colspan="2" height="20"></td></tr> <!-- small spacer between projects -->
-
-<tr>
-<td width="220">
+<div style="display:inline-block; width:220px; margin:10px; vertical-align:top;">
 <img src="images/grades.jpeg" width="200" alt="Final Grade Predictor">
-</td>
-<td valign="top">
-
+<br>
 **Final Grade Predictor**  
 **Tools:** Python, Matplotlib, Seaborn, Scikit-learn  
 Machine learning model predicting final grades with preprocessing, model selection, evaluation, and insights.  
-
+<br>
 [View Overview](https://github.com/samcirceo/FinalGradePredictorPUBLIC)  
 *Full project available upon request*
+</div>
 
-</td>
-</tr>
-
-<tr><td colspan="2" height="20"></td></tr>
-
-<tr>
-<td width="220">
+<div style="display:inline-block; width:220px; margin:10px; vertical-align:top;">
 <img src="images/mentalhealth.jpeg" width="200" alt="Mental Health Predictor">
-</td>
-<td valign="top">
-
+<br>
 **Mental Health Predictor**  
 **Tools:** R, dplyr, ggplot2  
 Regression model predicting mental health scores using exploratory data analysis and visualization.  
-
+<br>
 [View Overview](https://github.com/samcirceo/MentalHealthPredictorPUBLIC)  
 *Full project available upon request*
+</div>
 
-</td>
-</tr>
-
-<tr><td colspan="2" height="20"></td></tr>
-
-<tr>
-<td width="220">
+<div style="display:inline-block; width:220px; margin:10px; vertical-align:top;">
 <img src="images/taxi.jpeg" width="200" alt="NY Taxi Analysis">
-</td>
-<td valign="top">
-
+<br>
 **New York Taxi Analysis**  
 **Tools:** Python  
 Regression model predicting hourly NYC taxi demand across regions.  
-
+<br>
 [View Full Project](https://github.com/samcirceo/New-York-Taxi-Analysis)
-
-</td>
-</tr>
-</table>
+</div>
 
 </div>
+
+
+
 
 ---
 
