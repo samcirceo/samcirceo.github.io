@@ -29,7 +29,7 @@ I am a data enthusiast with an **M.S. in Data Science** from Eastern University 
     <strong>Tools:</strong> Python, TensorFlow<br>
     This project creates a CNN model and uses dimensionality reduction with PCA to classify mushrooms as poisonous or edible.<br>
     <a href="https://github.com/samcirceo/MushroomClassifierPUBLIC">View Overview</a><br>
-    <em><a href="https://github.com/samcirceo/MushroomClassifier">Full project</a> available upon request</em>
+    <em><a href="https://github.com/samcirceo/MushroomClassification">Full project</a> available upon request</em>
   </div>
 </div>
 
