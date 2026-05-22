@@ -1,4 +1,4 @@
-## Samantha Circeo | Data Science Portfolio
+## Welcome to my Data Science Portfolio
 
 <div align="center">
   <img width="65" alt="Eastern University logo" src="images/easternlogo.png">
