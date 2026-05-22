@@ -140,3 +140,37 @@ footer {
   border-top: 1px solid #e5e7eb;
 }
 
+/* ===== ABOUT ME SECTION ===== */
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  flex-wrap: wrap;
+  text-align: left;
+}
+
+.about-image img {
+  width: 260px;
+  height: 260px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #e5e7eb;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.about-text {
+  flex: 1;
+  min-width: 280px;
+}
+
+.about-text h2 {
+  text-align: left; /* overrides section default center */
+  margin-bottom: 15px;
+}
+
+.about-text p {
+  color: #374151;
+  margin-bottom: 12px;
+}
+
