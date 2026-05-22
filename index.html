@@ -7,23 +7,6 @@
   <link rel="stylesheet" href="style.css"/>
 </head>
 
-  <script>
-  const reveals = document.querySelectorAll('.reveal');
-
-  function revealOnScroll() {
-    for (let i = 0; i < reveals.length; i++) {
-      const windowHeight = window.innerHeight;
-      const elementTop = reveals[i].getBoundingClientRect().top;
-      const elementVisible = 100;
-
-      if (elementTop < windowHeight - elementVisible) {
-        reveals[i].classList.add('active');
-      }
-    }
-  }
-
-  window.addEventListener('scroll', revealOnScroll);
-</script>
   
 <body>
 
@@ -143,5 +126,23 @@
     <p>© 2026 Samantha Circeo • Built with GitHub Pages</p>
   </footer>
 
+  <script>
+  const reveals = document.querySelectorAll('.reveal');
+
+  function revealOnScroll() {
+    for (let i = 0; i < reveals.length; i++) {
+      const windowHeight = window.innerHeight;
+      const elementTop = reveals[i].getBoundingClientRect().top;
+      const elementVisible = 100;
+
+      if (elementTop < windowHeight - elementVisible) {
+        reveals[i].classList.add('active');
+      }
+    }
+  }
+
+  window.addEventListener('scroll', revealOnScroll);
+</script>
+  
 </body>
 </html>
