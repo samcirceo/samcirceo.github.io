@@ -194,9 +194,11 @@ footer {
 
 .links {
   display: flex;
-  gap: 12px;
-  flex-wrap: wrap;
-  margin-top: 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 12px; /* space between buttons */
+  flex-wrap: wrap; /* keeps it responsive on small screens */
+  margin-top: 20px; /* optional spacing */
 }
 
 /* Base button style */
