@@ -199,6 +199,9 @@ footer {
   gap: 12px; /* space between buttons */
   flex-wrap: wrap; /* keeps it responsive on small screens */
   margin-top: 20px; /* optional spacing */
+
+  width: 100%;        /* 🔥 important fix */
+  text-align: center; /* fallback */
 }
 
 /* Base button style */
