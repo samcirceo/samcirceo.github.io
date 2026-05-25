@@ -186,3 +186,9 @@ footer {
   transform: translateY(0);
 }
 
+.email-hover {
+  color: #2563eb;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
