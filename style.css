@@ -77,67 +77,41 @@ a:hover {
   width: 100%;
 }
 
-/* ===== BASE BUTTON ===== */
+/* ===== BASE BUTTON (ALL BUTTONS SAME STYLE) ===== */
 .btn {
   display: inline-flex;
   justify-content: center;
   align-items: center;
+
   padding: 10px 16px;
   border-radius: 8px;
+
   font-weight: 600;
   font-size: 14px;
+
   text-decoration: none;
   cursor: pointer;
+
   border: 2px solid transparent;
+
+  background-color: #374151; /* neutral dark gray */
+  color: white;
+
   transition: all 0.2s ease;
 }
 
-/* ===== EMAIL (GMAIL LINK BUTTON) ===== */
-.btn.email {
-  background-color: #2d6cdf;
-  color: white;
-}
-
-.btn.email:hover {
+/* ===== HOVER EFFECT (ALL BUTTONS) ===== */
+.btn:hover {
   background-color: white;
-  color: #2d6cdf;
-  border-color: #2d6cdf;
+  color: #374151;
+  border-color: #374151;
+  transform: translateY(-2px);
 }
 
-/* ===== LINKEDIN ===== */
-.btn.linkedin {
-  background-color: #0a66c2;
-  color: white;
-}
-
-.btn.linkedin:hover {
-  background-color: white;
-  color: #0a66c2;
-  border-color: #0a66c2;
-}
-
-/* ===== GITHUB ===== */
-.btn.github {
-  background-color: #24292e;
-  color: white;
-}
-
-.btn.github:hover {
-  background-color: white;
-  color: #24292e;
-  border-color: #24292e;
-}
-
-/* ===== COPY EMAIL BUTTON ===== */
+/* ===== COPY BUTTON (keeps same styling, just button element) ===== */
 .btn.copy {
-  background-color: #16a34a;
+  background-color: #374151;
   color: white;
-}
-
-.btn.copy:hover {
-  background-color: white;
-  color: #16a34a;
-  border-color: #16a34a;
 }
 
 /* ===== SECTIONS ===== */
