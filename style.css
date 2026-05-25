@@ -66,10 +66,78 @@ a:hover {
   font-size: 13px;
 }
 
-/* ===== LINKS ===== */
-.links a {
-  margin: 10px;
-  font-weight: bold;
+/* ===== LINKS CONTAINER ===== */
+.links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  width: 100%;
+}
+
+/* ===== BASE BUTTON ===== */
+.btn {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 16px;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 14px;
+  text-decoration: none;
+  cursor: pointer;
+  border: 2px solid transparent;
+  transition: all 0.2s ease;
+}
+
+/* ===== EMAIL (GMAIL LINK BUTTON) ===== */
+.btn.email {
+  background-color: #2d6cdf;
+  color: white;
+}
+
+.btn.email:hover {
+  background-color: white;
+  color: #2d6cdf;
+  border-color: #2d6cdf;
+}
+
+/* ===== LINKEDIN ===== */
+.btn.linkedin {
+  background-color: #0a66c2;
+  color: white;
+}
+
+.btn.linkedin:hover {
+  background-color: white;
+  color: #0a66c2;
+  border-color: #0a66c2;
+}
+
+/* ===== GITHUB ===== */
+.btn.github {
+  background-color: #24292e;
+  color: white;
+}
+
+.btn.github:hover {
+  background-color: white;
+  color: #24292e;
+  border-color: #24292e;
+}
+
+/* ===== COPY EMAIL BUTTON ===== */
+.btn.copy {
+  background-color: #16a34a;
+  color: white;
+}
+
+.btn.copy:hover {
+  background-color: white;
+  color: #16a34a;
+  border-color: #16a34a;
 }
 
 /* ===== SECTIONS ===== */
@@ -165,7 +233,7 @@ footer {
 }
 
 .about-text h2 {
-  text-align: left; /* overrides section default center */
+  text-align: left;
   margin-bottom: 15px;
 }
 
@@ -174,7 +242,7 @@ footer {
   margin-bottom: 12px;
 }
 
-/* ===== SIMPLE SCROLL ANIMATION ===== */
+/* ===== SCROLL ANIMATION ===== */
 .reveal {
   opacity: 0;
   transform: translateY(20px);
@@ -185,70 +253,3 @@ footer {
   opacity: 1;
   transform: translateY(0);
 }
-
-.email-hover {
-  color: #2563eb;
-  text-decoration: underline;
-  cursor: pointer;
-}
-
-.links {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 12px; /* space between buttons */
-  flex-wrap: wrap; /* keeps it responsive on small screens */
-  margin-top: 20px; /* optional spacing */
-
-  width: 100%;        /* 🔥 important fix */
-  text-align: center; /* fallback */
-}
-
-/* Base button style */
-.btn {
-  display: inline-block;
-  padding: 10px 16px;
-  border-radius: 8px;
-  text-decoration: none;
-  font-weight: 600;
-  font-size: 14px;
-  transition: all 0.2s ease;
-  border: 2px solid transparent;
-}
-
-/* Email button */
-.btn.email {
-  background-color: #2d6cdf;
-  color: white;
-}
-
-.btn.email:hover {
-  background-color: white;
-  color: #2d6cdf;
-  border-color: #2d6cdf;
-}
-
-/* LinkedIn button */
-.btn.linkedin {
-  background-color: #0a66c2;
-  color: white;
-}
-
-.btn.linkedin:hover {
-  background-color: white;
-  color: #0a66c2;
-  border-color: #0a66c2;
-}
-
-/* GitHub button */
-.btn.github {
-  background-color: #24292e;
-  color: white;
-}
-
-.btn.github:hover {
-  background-color: white;
-  color: #24292e;
-  border-color: #24292e;
-}
-
