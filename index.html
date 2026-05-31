@@ -71,7 +71,7 @@
 </header>
 
     <!-- ABOUT ME -->
-<section class="section alt reveal">
+<section class="section alt">
   <div class="container about">
 
     <div class="about-image">
@@ -155,7 +155,7 @@
     <div class="container">
       <h2>Currently Working On</h2>
       <p>
-        Expanding my portfolio with end-to-end machine learning and data visualization projects,
+        Expanding my portfolio with an end-to-end machine learning and data visualization projects,
         while exploring cloud technologies using AWS.
       </p>
     </div>
@@ -166,23 +166,7 @@
     <p>© 2026 Samantha Circeo • Built with GitHub Pages</p>
   </footer>
 
-  <script>
-  const reveals = document.querySelectorAll('.reveal');
-
-  function revealOnScroll() {
-    for (let i = 0; i < reveals.length; i++) {
-      const windowHeight = window.innerHeight;
-      const elementTop = reveals[i].getBoundingClientRect().top;
-      const elementVisible = 100;
-
-      if (elementTop < windowHeight - elementVisible) {
-        reveals[i].classList.add('active');
-      }
-    }
-  }
-
-  window.addEventListener('scroll', revealOnScroll);
-</script>
+  
 
   <script>
 function copyEmail() {
