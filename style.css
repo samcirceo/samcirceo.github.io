@@ -239,8 +239,8 @@ footer {
 }
 
 .education-item img {
-  height: 45px;
-  width: 65px;
+  height: 70px;
+  width: auto;
   object-fit: contain;
   display: block;
 }
