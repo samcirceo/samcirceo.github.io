@@ -139,23 +139,25 @@ a:hover {
 }
 
 /* ===== CARDS ===== */
-/* ===== CARDS ===== */
+
 .card {
   background: white;
   border: 1px solid #e5e7eb;
   border-radius: 12px;
   padding: 15px;
-  transition: 0.25s ease;
+  transition: all 0.25s ease;
 
-  /* Converts card into a column flexbox so elements stretch vertically */
+  /* Force all cards in a row to match the tallest card's height */
   display: flex;
   flex-direction: column;
+  height: 100%; 
+  box-sizing: border-box;
 }
 
-/* Card hover leaves original scaling intact but handles smooth tracking */
+/* Smooth card lift and shadow tracking on hover */
 .card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 10px 20px rgba(0,0,0,0.08);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
 }
 
 .card img {
@@ -168,39 +170,45 @@ a:hover {
 .card h3 {
   margin-top: 15px;
   margin-bottom: 5px;
+  font-size: 18px;
+  color: #1f2937;
 }
 
-/* Added a structural text wrapper to manage flexing */
+/* Flex wrapper that handles internal alignment stretching */
 .card-content {
   display: flex;
   flex-direction: column;
   flex-grow: 1;
 }
 
+/* The secret to alignment: flex-grow expands the paragraph 
+   to push the elements below it down to the exact same baseline */
 .card p {
   color: #4b5563;
   font-size: 14px;
   margin-bottom: 10px;
-  flex-grow: 1; /* Pushes everything below this down to the card floor */
+  flex-grow: 1; 
 }
 
 .tools {
   font-size: 12px;
   color: #6b7280;
   margin-bottom: 15px;
+  margin-top: auto; /* Groups tools cleanly above the button */
 }
 
-/* Action alignment container wrapper */
+/* Action button alignment container */
 .card-action {
-  margin-top: auto; /* Guarantees all buttons lock onto the same bottom row alignment */
   width: 100%;
+  margin-top: auto; /* Hard locks the button block to the bottom of the card */
 }
 
-/* Brand new custom project button styling */
+/* ===== STANDARD PROJECT BUTTON STYLES ===== */
+
 .btn.project-btn {
   display: flex;
   width: 100%;
-  box-sizing: border-box; /* Prevents button padding from running off the card edge */
+  box-sizing: border-box; /* Keeps padding inside container boundaries */
   justify-content: center;
   align-items: center;
   padding: 10px 16px;
@@ -210,18 +218,59 @@ a:hover {
   text-decoration: none;
   cursor: pointer;
   border: 2px solid transparent;
-  background-color: #374151; /* Charcoal gray standard background */
+  background-color: #374151; /* Elegant Charcoal Gray */
   color: white;
   transition: all 0.2s ease;
 }
 
-/* Micro-interaction variant style overrides on card hover triggers */
 .btn.project-btn:hover {
-  background-color: #2563eb; /* Changes the button to a custom sharp blue accent */
-  color: white;
+  background-color: #2563eb; /* Transitions to Tech Blue */
   border-color: #2563eb;
+  color: white;
   text-decoration: none;
   transform: translateY(-2px);
+}
+
+/* ===== NATIONAL PARK FEATURED CARD ACCENTS ===== */
+
+/* Distinct border and subtle layout depth */
+.card.featured {
+  border: 2px solid #2563eb; 
+  position: relative;        /* Required to pin the badge over the border */
+  background: #fdfdfd;       
+  box-shadow: 0 4px 15px rgba(37, 99, 235, 0.06);
+}
+
+.card.featured:hover {
+  transform: translateY(-7px) scale(1.01);
+  box-shadow: 0 15px 30px rgba(37, 99, 235, 0.12);
+}
+
+/* The absolute-positioned highlight pill */
+.featured-badge {
+  position: absolute;
+  top: -12px;
+  left: 20px;
+  background-color: #2563eb; 
+  color: white;
+  padding: 4px 12px;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  border-radius: 20px;
+  box-shadow: 0 4px 10px rgba(37, 99, 235, 0.3);
+  z-index: 10;
+}
+
+/* Overrides the featured card's button to be tech blue by default */
+.card.featured .btn.project-btn {
+  background-color: #2563eb;
+}
+
+.card.featured .btn.project-btn:hover {
+  background-color: #1d4ed8; /* Deepens to dark blue on hover */
+  border-color: #1d4ed8;
 }
 
 /* ===== FOOTER ===== */
