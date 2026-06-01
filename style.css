@@ -245,10 +245,6 @@ footer {
   display: block;
 }
 
-/* shrink only NC State */
-.education-item img[alt="NC State University"] {
-  transform: scale(0.88);
-}
 
 .degree {
   font-weight: 700;
