@@ -239,10 +239,15 @@ footer {
 }
 
 .education-item img {
-  height: 55px;
-  width: auto;
-  max-width: 120px;
+  height: 45px;
+  width: 65px;
   object-fit: contain;
+  display: block;
+}
+
+/* shrink only NC State */
+.education-item img[alt="NC State University"] {
+  transform: scale(0.88);
 }
 
 .degree {
