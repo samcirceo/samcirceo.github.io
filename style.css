@@ -139,17 +139,20 @@ a:hover {
 }
 
 /* ===== CARDS ===== */
+/* ===== CARDS ===== */
 .card {
   background: white;
   border: 1px solid #e5e7eb;
   border-radius: 12px;
   padding: 15px;
-  transition: 0.2s ease;
+  transition: 0.25s ease;
 
+  /* Converts card into a column flexbox so elements stretch vertically */
   display: flex;
   flex-direction: column;
 }
 
+/* Card hover leaves original scaling intact but handles smooth tracking */
 .card:hover {
   transform: translateY(-5px);
   box-shadow: 0 10px 20px rgba(0,0,0,0.08);
@@ -163,22 +166,62 @@ a:hover {
 }
 
 .card h3 {
-  margin-top: 10px;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+/* Added a structural text wrapper to manage flexing */
+.card-content {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
 }
 
 .card p {
   color: #4b5563;
   font-size: 14px;
+  margin-bottom: 10px;
+  flex-grow: 1; /* Pushes everything below this down to the card floor */
 }
 
 .tools {
   font-size: 12px;
   color: #6b7280;
-  margin-top: 5px;
+  margin-bottom: 15px;
 }
 
-.card a {
-  margin-top: auto;
+/* Action alignment container wrapper */
+.card-action {
+  margin-top: auto; /* Guarantees all buttons lock onto the same bottom row alignment */
+  width: 100%;
+}
+
+/* Brand new custom project button styling */
+.btn.project-btn {
+  display: flex;
+  width: 100%;
+  box-sizing: border-box; /* Prevents button padding from running off the card edge */
+  justify-content: center;
+  align-items: center;
+  padding: 10px 16px;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 14px;
+  text-decoration: none;
+  cursor: pointer;
+  border: 2px solid transparent;
+  background-color: #374151; /* Charcoal gray standard background */
+  color: white;
+  transition: all 0.2s ease;
+}
+
+/* Micro-interaction variant style overrides on card hover triggers */
+.btn.project-btn:hover {
+  background-color: #2563eb; /* Changes the button to a custom sharp blue accent */
+  color: white;
+  border-color: #2563eb;
+  text-decoration: none;
+  transform: translateY(-2px);
 }
 
 /* ===== FOOTER ===== */
