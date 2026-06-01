@@ -18,13 +18,6 @@ A clean, interactive portfolio designed to highlight my machine learning and dat
 
 ---
 
-
-### Currently Working On
-
-Expanding my portfolio with an end-to-end machine learning and data visualization project as well as exploring cloud technologies (AWS)
-
----
-
 ### Contact Me
 
 - **Email:** samicirceo1@gmail.com
