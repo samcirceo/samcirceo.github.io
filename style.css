@@ -222,3 +222,41 @@ footer {
   color: #374151;
   margin-bottom: 12px;
 }
+
+.education-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  margin: 25px 0;
+  flex-wrap: wrap;
+}
+
+.education-item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.education-item img {
+  width: 60px;
+  height: auto;
+  object-fit: contain;
+}
+
+.degree {
+  font-weight: 700;
+  font-size: 1rem;
+  color: #222;
+}
+
+.school {
+  font-size: 0.95rem;
+  color: #666;
+}
+
+.divider {
+  width: 1px;
+  height: 60px;
+  background: #d0d0d0;
+}
