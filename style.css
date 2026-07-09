@@ -199,15 +199,17 @@ a:hover {
 
 /* Action button alignment container */
 .card-action {
-  width: 100%;
-  margin-top: auto; /* Hard locks the button block to the bottom of the card */
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-top: 15px;
 }
 
 /* ===== STANDARD PROJECT BUTTON STYLES ===== */
 
 .btn.project-btn {
   display: flex;
-  width: 100%;
+  width: auto;
   box-sizing: border-box; /* Keeps padding inside container boundaries */
   justify-content: center;
   align-items: center;
@@ -266,6 +268,7 @@ a:hover {
 /* Overrides the featured card's button to be tech blue by default */
 .card.featured .btn.project-btn {
   background-color: #2563eb;
+  flex: 1;
 }
 
 .card.featured .btn.project-btn:hover {
