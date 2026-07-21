@@ -134,8 +134,23 @@ a:hover {
 /* ===== GRID ===== */
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 20px;
+}
+
+/* On screens wider than 768px, let the featured card occupy the full top row */
+@media (min-width: 768px) {
+  .card.featured {
+    grid-column: 1 / -1;
+    display: flex;
+    flex-direction: row; /* Horizontal layout for desktop featured view */
+    gap: 20px;
+    align-items: center;
+  }
+  .card.featured img {
+    width: 45%;
+    height: 280px; /* Gives your main National Parks photo more prominence */
+  }
 }
 
 /* ===== CARDS ===== */
