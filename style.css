@@ -134,9 +134,46 @@ a:hover {
 /* ===== GRID ===== */
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   gap: 20px;
+  /* Creates a 6-column template to allow perfectly balanced centering patterns */
+  grid-template-columns: repeat(6, 1fr); 
+  justify-content: center;
 }
+
+/* Row 1: Assigns 2 columns per card across 3 distinct blocks */
+.grid .card:nth-child(1) { grid-column: span 2; }
+.grid .card:nth-child(2) { grid-column: span 2; }
+.grid .card:nth-child(3) { grid-column: span 2; }
+
+/* Row 2: Steps inward 1 column, spanning 2 columns each to leave identical empty wings */
+.grid .card:nth-child(4) { grid-column: 2 / 4; }
+.grid .card:nth-child(5) { grid-column: 4 / 6; }
+
+/* Responsive adjustments for smaller laptop and mobile screens */
+@media (max-width: 900px) {
+  .grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .grid .card:nth-child(1) { grid-column: span 2; }
+  .grid .card:nth-child(2) { grid-column: span 2; }
+  .grid .card:nth-child(3) { grid-column: span 2; }
+  /* Wraps the 4th and 5th cards symmetrically on their own line */
+  .grid .card:nth-child(4) { grid-column: span 2; }
+  .grid .card:nth-child(5) { grid-column: span 2; }
+}
+
+@media (max-width: 620px) {
+  .grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .grid .card {
+    width: 100%;
+    max-width: 320px;
+  }
+}
+
 
 /* ===== CARDS ===== */
 
